@@ -210,3 +210,18 @@ function funchome() {
     document.getElementById("titleinformation").style.display = "none";
     document.getElementById("informationtext").style.display = "none";
 }
+
+
+function changecolor() {
+    document.getElementById("bodyhomepage").style.backgroundColor = "#D8E3E7";
+    document.getElementById("textcop").style.color = "black";
+    document.getElementById("texthome").style.color = "black";
+    document.getElementById("titleinformation").style.color = "black";
+    document.getElementById("informationtext").style.color = "black";
+    document.getElementById("buttondis22").style.color = "black";
+    document.getElementById("topnav").style.backgroundColor = "white";
+}
+
+function changecolor2() {
+    location.reload();
+}
